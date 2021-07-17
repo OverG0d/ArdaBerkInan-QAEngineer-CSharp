@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp.csproj": {}
+  },
+  "projects": {
+    "D:\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp.csproj",
+        "projectName": "ArdaBerkInan_QAEngineerChallenge_CSharp",
+        "projectPath": "D:\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp.csproj",
+        "packagesPath": "C:\\Users\\ardai\\.nuget\\packages\\",
+        "outputPath": "D:\\ArdaBerkInan_QAEngineerChallenge_CSharp\\ArdaBerkInan_QAEngineerChallenge_CSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ardai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
