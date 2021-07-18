@@ -43,8 +43,8 @@ namespace ArdaBerkInan_QAEngineerChallenge_CSharp
                     counter++; 
                 }
                 lowestFreqNumber = CheckForLowestFrequency(numbers); //Returns the number with lowest frequency
-                Console.WriteLine("Lowest frequency count for file " + files[i].Name +
-                "is" + ":"  + " " + lowestFreqNumber);
+                Console.WriteLine("Number with lowest frequency count for file " + 
+                files[i].Name + " " + "is" + ":"  + " " + lowestFreqNumber);
             }
         }
 
