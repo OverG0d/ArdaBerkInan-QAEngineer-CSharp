@@ -11,9 +11,12 @@ namespace ArdaBerkInan_QAEngineerChallenge_CSharp
         {
             string filePath = @"src";
             Dictionary<int, int> numbers = new Dictionary<int, int>();
-            DirectoryInfo d = new DirectoryInfo(filePath); 
+            DirectoryInfo d = new DirectoryInfo(filePath);
+            int counter = 0;
+            int lowestFreqNumber = 0;
+            string[] contents;
 
-            if(!d.Exists) //Check if the directory exists
+            if (!d.Exists) //Check if the directory exists
             {
                 throw new DirectoryNotFoundException(
                 "Directory does not exist or could not be found: "
@@ -21,10 +24,7 @@ namespace ArdaBerkInan_QAEngineerChallenge_CSharp
             }
 
             FileInfo[] files = d.GetFiles("*.txt"); //Get text files
-
-            int counter = 0;
-            int lowestFreqNumber = 0;
-            string[] contents;
+            
             for (int i = 0; i < files.Length; i++)
             {
                 counter = 0;
